@@ -20,6 +20,10 @@ class Student
 
   def add_student_attributes(attributes_hash)
     binding.pry
+    self.twitter = attributes_hash[:twitter] if attributes_hash[:twitter]
+    self.linkedin = attributes_hash[:linkedin]
+    self.github = attributes_hash[:github]
+    self.blog
   end
 
   def self.all
