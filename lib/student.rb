@@ -22,8 +22,8 @@ class Student
     binding.pry
     self.twitter = attributes_hash[:twitter] if attributes_hash[:twitter]
     self.linkedin = attributes_hash[:linkedin] if attributes_hash[:linkedin]
-    self.github = attributes_hash[:github]
-    self.blog
+    self.github = attributes_hash[:github] if attributes_hash[:github]
+    self.blog = attributes_hash[:blog]
   end
 
   def self.all
