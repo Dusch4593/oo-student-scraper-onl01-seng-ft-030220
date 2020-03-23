@@ -25,7 +25,6 @@ class Student
     self.blog = attributes_hash[:blog] if attributes_hash[:blog]
     self.profile_quote = attributes_hash[:profile_quote]
     self.bio = attributes_hash[:bio]
-    binding.pry
   end
 
   def self.all
